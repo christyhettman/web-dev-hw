@@ -1,1 +1,11 @@
-Here is some text
+What is the relationship between an IP address and the DNS?
+
+The DNS translates and maps the domain to the IP address, which is the host on a network.
+
+What is a cookie?
+
+Cookies are text files with small pieces of data used to identify your computer as you use it.
+
+What are the three essential parts of a URL?
+
+The protocol, domain and paths
