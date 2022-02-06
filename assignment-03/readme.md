@@ -10,7 +10,7 @@ much better
 
 https://www.cromedicalgear.com/
 
-[my responses](./responses.text)
+[my responses](./responses.txt)
 
 ![screenshot](./images/screenshot3.JPG)
 
