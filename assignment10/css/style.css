@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(#dde0bdff, #b6a39eff);
+    font-family: calibri;
+   text-align: center;
+   color: #726e75ff;
+}
+
+
+div{
+  border-style: dotted;
+  border-left-color: #b6a39eff;
+  border-right-color:#726e75ff;
+  border-top-color: #948b89ff;
+  border-bottom-color: #dde0bdff;
+  border-radius: 5px;
+  border-width: thick;
+  display: inline-block;
+}
+
+img{
+  border-radius:50%;
+  border: 15px solid #726e75ff;
+}
+
+#para1{
+  text-shadow: 2px;
+}
+.inspiration{
+  background-color: #726e75ff
+}
+
+#title{
+  font-size: 50px;
+
+}
+
+.dot{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.dot.one {
+  background-color: #d0d1acff;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.dot.two {
+  background-color: #b6a39eff;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.dot.three {
+  background-color: #948b89ff;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.dot.four {
+  background-color: #726e75ff;
+  border-radius: 50%;
+  border: 1px solid black;
+}
