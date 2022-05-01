@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(#cbe1e2, #fae3b3);
+    font-family: 'Pacifico', cursive;
+   text-align: center;
+   color: #726e75ff;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #535770;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #535770;
+  color: white;
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 300;
+    color: #aa7dd4;
+
+
+
+h2{
+    color: #cfd67c;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 300;
+    color: #aa7dd4;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: #eef0c2;
+    color: #d5beeb;
+}
+
+.titleBorder:hover{
+    background-color: #ebedbe;
+    color: #9c84bd;
+    text-indent: 9em;
+    font-family: 'Pacifico', cursive;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #9c84bd;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: 'Pacifico', cursive;
+}
+
+.content-paragraph:first-line{
+    font-size: 30px;
+    font-family: 'Poppins';
+    line-height: 40px;
+}
+
+.recipe-link{
+    text-decoration: dotted;
+    color: #9c84bd;
+}
+
+.recipe-link:hover{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.recipe-link:visited{
+    color: #6cd4d2;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 20px;
+}
+
+img {
+    border: 20px solid #9c84bd;
+}
+
+#img-link:hover{
+    border: 50px solid #9c84bd;
+}
