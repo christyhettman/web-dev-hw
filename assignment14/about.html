@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <title>Hokusai</title>
   <meta charset="UTF-8">
@@ -18,30 +19,46 @@
   <!-- !PAGE CONTENT! -->
   <div class="content paragraph" style="max-width:1500px">
     <h2 class="subtitle">
-      HOKUSAI
+      My favorite Artist is
     </h2>
   <!-- Header -->
+<nav>
   <div class="topnav">
   <a class="active" href="index.html">Home</a>
-  <a href="about.html">Art</a>
+  <a href="art.html">Art</a>
   <a href="contact.html">Contact</a>
-  <a href="#about">About</a>
-</div>
-
-<!-- Photo Grid -->
-<div class="row">
-  <div class="half">
-    <img src="images/cherrytree.jpg" style="width:50%">
-    <img src="images/sparrow.jpeg" style="width:50%">
+  <a href="about.html">About</a>
   </div>
+</nav>
 
-  <div class="half">
-    <img src="images/fruit.jpg" style="width:50%">
-    <img src="images/winter.jpg" style="width:50%">
-  </div>
-</div>
 
-<p><span style='font-size:100px;'>&#127800;</span></p>
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="images/symbol.jpg" class="w3-image w3-padding-32" width="300" height="300">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>KATSUSHIKA HOKUSAI
+(1760 – May 10, 1849)
 
-<!-- End Page Content -->
-</div>
+Katsushika Hokusai (葛飾北斎, Katsushika Hokusai? 1760–May 10, 1849) was a Japanese artist, ukiyo-e painter and printmaker of the Edo period. In his time he was Japan's leading expert on Chinese painting. Born in Edo (now Tokyo), Hokusai is best-known as author of the woodblock print series Thirty-six Views of Mount Fuji (c. 1831) which includes the iconic and internationally recognized print, The Great Wave off Kanagawa, created during the 1820s. Hokusai created the "Thirty-Six Views" both as a response to a domestic travel boom and as part of a personal obsession with Mount Fuji. It was this series, specifically The Great Wave print and Fuji in Clear Weather, that secured Hokusai’s fame both within Japan and overseas. As historian Richard Lane concludes, “Indeed, if there is one work that made Hokusai's name, both in Japan and abroad, it must be this monumental print-series...” While Hokusai's work prior to this series is certainly important, it was not until this series that he gained broad recognition and left a lasting impact on the art world. It was The Great Wave print that initially received, and continues to receive, acclaim and popularity in the Western world.</p>
+    <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+  <br>
+  <p><span style='font-size:100px;'>&#127800;</span></p>
+</footer>
+
+</body>
+</html>
